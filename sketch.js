@@ -20,7 +20,7 @@ function setup() {
   balloon.scale=0.5;
 
 var balloonposition=database.ref('balloon/height');
-  balloonposition.on("value",readPosition,showError);
+  balloonposition.on("value",readheight,showError);
 
   textSize(20); 
 }
